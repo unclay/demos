@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-demo",
+  "version": "1.0.0",
+  "description": "RabbitMQ Node.js Demo",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9"
+  }
+}
